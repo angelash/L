@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40047D06-B9EA-40C0-8184-0350D921490F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameData</RootNamespace>
+    <AssemblyName>GameData</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_ANDROID|AnyCPU'">
+    <DebugSymbols>True</DebugSymbols>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_5_4;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_IPHONE|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_STANDALONE_WIN|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_WEBPLAYER|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_5_4;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Constants.cs" />
+    <Compile Include="Base\Events.cs" />
+    <Compile Include="Base\GameDataUtils.cs" />
+    <Compile Include="Base\HMF\Hmf.cs" />
+    <Compile Include="Base\HMF\Tag.cs" />
+    <Compile Include="Base\HMF\Util.cs" />
+    <Compile Include="Base\RandomHelper.cs" />
+    <Compile Include="Base\RPC\CodecDefine\AOIDelEntityPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\AOIEntitiesPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\AOINewEntityPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\AvatarAttriSyncPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\BaseLoginPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\CheckDefMD5Pluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\DefuseLoginPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\EntityAttachedPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\EntityCellAttachedPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\EntityPosPullPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\EntityPosSyncPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\EntityPosTeleportPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\LoginPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\MovePluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\NotImplementedPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\OtherAttriSyncPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\OtherEntityPosPullPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\OtherEntityPosSyncPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\OtherEntityPosTeleportPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\Pluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\ReConnectPluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\ReConnectRefusePluto.cs" />
+    <Compile Include="Base\RPC\CodecDefine\RpcCallPluto.cs" />
+    <Compile Include="Base\RPC\DefineParser\DefParser.cs" />
+    <Compile Include="Base\RPC\DefineParser\EntityDef.cs" />
+    <Compile Include="Base\RPC\DefineParser\EntityDefMethods.cs" />
+    <Compile Include="Base\RPC\DefineParser\EntityDefProperties.cs" />
+    <Compile Include="Base\RPC\Entities.cs" />
+    <Compile Include="Base\RPC\EnumDefine\MSGIDType.cs" />
+    <Compile Include="Base\RPC\EnumDefine\VType.cs" />
+    <Compile Include="Base\RPC\Exceptions\DefineParseException.cs" />
+    <Compile Include="Base\RPC\Exceptions\RPCException.cs" />
+    <Compile Include="Base\RPC\RPCMsgLogManager.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VBLOB.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VBoolean.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VDouble.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VEmpty.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VFloat.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VInt16.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VInt32.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VInt64.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VInt8.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VLuaTable.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VObject.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VString.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VUInt16.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VUInt32.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VUInt64.cs" />
+    <Compile Include="Base\RPC\TypeDefine\VUInt8.cs" />
+    <Compile Include="Base\RPC\TypeMapping.cs" />
+    <Compile Include="Base\GameData.cs" />
+    <Compile Include="BuildingData.cs" />
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="LanguageData.cs" />
+    <Compile Include="GroupData.cs" />
+    <Compile Include="MapData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkillData.cs" />
+    <Compile Include="NameOrientalLastData.cs" />
+    <Compile Include="NameOrientalMaleData.cs" />
+    <Compile Include="SoldierData.cs" />
+    <Compile Include="StarData.cs" />
+    <Compile Include="ColorData.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\LoaderLib\LoaderLib.csproj">
+      <Project>{5E6B6C90-2886-4E8B-B84E-023526D0FB76}</Project>
+      <Name>LoaderLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\NGUI\NGUI.csproj">
+      <Project>{D9244CDF-3CAA-4B04-9A2B-4F6C994B28AB}</Project>
+      <Name>NGUI</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

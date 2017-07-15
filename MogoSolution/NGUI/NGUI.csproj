@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9244CDF-3CAA-4B04-9A2B-4F6C994B28AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NGUI</RootNamespace>
+    <AssemblyName>NGUI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;UNITY_4_6_6;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_IPHONE|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_6_6;UNITY_4_6;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_ANDROID|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_5_4;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_STANDALONE_WIN|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_WEBPLAYER|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_4_5_4;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEditor">
+      <HintPath>..\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interaction\LanguageSelection.cs" />
+    <Compile Include="Interaction\UIButton.cs" />
+    <Compile Include="Interaction\UIButtonActivate.cs" />
+    <Compile Include="Interaction\UIButtonColor.cs" />
+    <Compile Include="Interaction\UIButtonKeyBinding.cs" />
+    <Compile Include="Interaction\UIButtonKeys.cs" />
+    <Compile Include="Interaction\UIButtonMessage.cs" />
+    <Compile Include="Interaction\UIButtonOffset.cs" />
+    <Compile Include="Interaction\UIButtonPlayAnimation.cs" />
+    <Compile Include="Interaction\UIButtonRotation.cs" />
+    <Compile Include="Interaction\UIButtonScale.cs" />
+    <Compile Include="Interaction\UIButtonSound.cs" />
+    <Compile Include="Interaction\UIButtonTween.cs" />
+    <Compile Include="Interaction\UICenterOnChild.cs" />
+    <Compile Include="Interaction\UICheckbox.cs" />
+    <Compile Include="Interaction\UICheckboxControlledComponent.cs" />
+    <Compile Include="Interaction\UICheckboxControlledObject.cs" />
+    <Compile Include="Interaction\UIDragCamera.cs" />
+    <Compile Include="Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Interaction\UIDraggablePanel.cs" />
+    <Compile Include="Interaction\UIDragObject.cs" />
+    <Compile Include="Interaction\UIDragPanelContents.cs" />
+    <Compile Include="Interaction\UIForwardEvents.cs" />
+    <Compile Include="Interaction\UIGrid.cs" />
+    <Compile Include="Interaction\UIImageButton.cs" />
+    <Compile Include="Interaction\UIInputValidator.cs" />
+    <Compile Include="Interaction\UIPanelAlpha.cs" />
+    <Compile Include="Interaction\UIPopupList.cs" />
+    <Compile Include="Interaction\UISavedOption.cs" />
+    <Compile Include="Interaction\UIScrollBar.cs" />
+    <Compile Include="Interaction\UISlider.cs" />
+    <Compile Include="Interaction\UISliderColors.cs" />
+    <Compile Include="Interaction\UISoundVolume.cs" />
+    <Compile Include="Interaction\UITable.cs" />
+    <Compile Include="Internal\ActiveAnimation.cs" />
+    <Compile Include="Internal\AnimationOrTween.cs" />
+    <Compile Include="Internal\BetterList.cs" />
+    <Compile Include="Internal\BMFont.cs" />
+    <Compile Include="Internal\BMGlyph.cs" />
+    <Compile Include="Internal\BMSymbol.cs" />
+    <Compile Include="Internal\ByteReader.cs" />
+    <Compile Include="Internal\IgnoreTimeScale.cs" />
+    <Compile Include="Internal\Localization.cs" />
+    <Compile Include="Internal\NGUIDebug.cs" />
+    <Compile Include="Internal\NGUIMath.cs" />
+    <Compile Include="Internal\NGUITools.cs" />
+    <Compile Include="Internal\SpringPanel.cs" />
+    <Compile Include="Internal\UIDrawCall.cs" />
+    <Compile Include="Internal\UIEventListener.cs" />
+    <Compile Include="Internal\UIGeometry.cs" />
+    <Compile Include="Internal\UINode.cs" />
+    <Compile Include="Internal\UIWidget.cs" />
+    <Compile Include="Internal\UpdateManager.cs" />
+    <Compile Include="MogoTwoStatusButton.cs" />
+    <Compile Include="UI\MogoUI\MogoUIEraserTexture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Tweening\AnimatedColor.cs" />
+    <Compile Include="Tweening\SpringPosition.cs" />
+    <Compile Include="Tweening\TweenAlpha.cs" />
+    <Compile Include="Tweening\TweenColor.cs" />
+    <Compile Include="Tweening\TweenFOV.cs" />
+    <Compile Include="Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Tweening\TweenPosition.cs" />
+    <Compile Include="Tweening\TweenRotation.cs" />
+    <Compile Include="Tweening\TweenScale.cs" />
+    <Compile Include="Tweening\TweenTransform.cs" />
+    <Compile Include="Tweening\TweenVolume.cs" />
+    <Compile Include="Tweening\UITweener.cs" />
+    <Compile Include="Tweening\TweenGroupColor.cs" />
+    <Compile Include="UI\Component\MogoCheckBox.cs" />
+    <Compile Include="UI\Component\MogoUIBtn.cs" />
+    <Compile Include="UI\Component\UIToggle.cs" />
+    <Compile Include="UI\EmojiUILabel.cs" />
+    <Compile Include="UI\MogoUI\CommunityUIButton.cs" />
+    <Compile Include="UI\MogoUI\CommunityUIDialogLabel.cs" />
+    <Compile Include="UI\MogoUI\CommunityUIDict.cs" />
+    <Compile Include="UI\MogoUI\CommunityUIFriendGird.cs" />
+    <Compile Include="UI\MogoUI\EnemyUIButton.cs" />
+    <Compile Include="UI\MogoUI\EnemyUIDict.cs" />
+    <Compile Include="UI\MogoUI\InventoryGrid.cs" />
+    <Compile Include="UI\MogoUI\LoadingAnim.cs" />
+    <Compile Include="UI\MogoUI\MainUIButton.cs" />
+    <Compile Include="UI\MogoUI\MainUIDict.cs" />
+    <Compile Include="UI\MogoUI\MenuUIButton.cs" />
+    <Compile Include="UI\MogoUI\MenuUIDict.cs" />
+    <Compile Include="UI\MogoUI\MFUIButtonHandler.cs" />
+    <Compile Include="UI\MogoUI\MogoAlign.cs" />
+    <Compile Include="UI\MogoUI\MogoBloodAnim.cs" />
+    <Compile Include="UI\MogoUI\MogoButton.cs" />
+    <Compile Include="UI\MogoUI\MogoButtonDownScale.cs" />
+    <Compile Include="UI\MogoUI\MogoFakeClick.cs" />
+    <Compile Include="UI\MogoUI\MogoFlashLight.cs" />
+    <Compile Include="UI\MogoUI\MogoFlashSurface.cs" />
+    <Compile Include="UI\MogoUI\MogoList.cs" />
+    <Compile Include="UI\MogoUI\MogoListImproved.cs" />
+    <Compile Include="UI\MogoUI\MogoPager.cs" />
+    <Compile Include="UI\MogoUI\MogoProgressBar.cs" />
+    <Compile Include="UI\MogoUI\MogoPropSheet.cs" />
+    <Compile Include="UI\MogoUI\MogoPropSheetIcon.cs" />
+    <Compile Include="UI\MogoUI\MogoSimpleShadow.cs" />
+    <Compile Include="UI\MogoUI\MogoSingleButton.cs" />
+    <Compile Include="UI\MogoUI\MogoSingleButtonList.cs" />
+    <Compile Include="UI\MogoUI\MogoSlider.cs" />
+    <Compile Include="UI\MogoUI\MogoSlipper.cs" />
+    <Compile Include="UI\MogoUI\MyDragableCamera.cs" />
+    <Compile Include="UI\MogoUI\MyDragablePanel.cs" />
+    <Compile Include="UI\MogoUI\MyDragCamera.cs" />
+    <Compile Include="UI\MogoUI\MyDragPanel.cs" />
+    <Compile Include="UI\MogoUI\NormalMainUIButton.cs" />
+    <Compile Include="UI\MogoUI\NormalMainUIDict.cs" />
+    <Compile Include="UI\MogoUI\OKCancelBox.cs" />
+    <Compile Include="UI\MogoUI\PackageItemBox.cs" />
+    <Compile Include="UI\MogoUI\PackageItemBoxUpSign.cs" />
+    <Compile Include="UI\MogoUI\SimpleDragCamera.cs" />
+    <Compile Include="UI\MogoUI\SkillUIButton.cs" />
+    <Compile Include="UI\MogoUI\SkillUIDict.cs" />
+    <Compile Include="UI\MogoUI\SocietyUIButton.cs" />
+    <Compile Include="UI\MogoUI\SocietyUIDict.cs" />
+    <Compile Include="UI\MogoUI\StrenthUIDict.cs" />
+    <Compile Include="UI\MogoUI\TaskUIButton.cs" />
+    <Compile Include="UI\MogoUI\UIUtils.cs" />
+    <Compile Include="UI\UIAnchor.cs" />
+    <Compile Include="UI\UIAtlas.cs" />
+    <Compile Include="UI\UICamera.cs" />
+    <Compile Include="UI\UIFilledSprite.cs" />
+    <Compile Include="UI\UIFont.cs" />
+    <Compile Include="UI\UIFXUnit.cs" />
+    <Compile Include="UI\UIInput.cs" />
+    <Compile Include="UI\UIInputSaved.cs" />
+    <Compile Include="UI\UILabel.cs" />
+    <Compile Include="UI\UILocalize.cs" />
+    <Compile Include="UI\UIMaskTexture.cs" />
+    <Compile Include="UI\UIOrthoCamera.cs" />
+    <Compile Include="UI\UIPanel.cs" />
+    <Compile Include="UI\UIRoot.cs" />
+    <Compile Include="UI\UISlicedSprite.cs" />
+    <Compile Include="UI\UISprite.cs" />
+    <Compile Include="UI\UISpriteAnimation.cs" />
+    <Compile Include="UI\UIStretch.cs" />
+    <Compile Include="UI\UITextList.cs" />
+    <Compile Include="UI\UITexture.cs" />
+    <Compile Include="UI\UITiledSprite.cs" />
+    <Compile Include="UI\UITooltip.cs" />
+    <Compile Include="UI\UIViewport.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoaderLib\LoaderLib.csproj">
+      <Project>{5E6B6C90-2886-4E8B-B84E-023526D0FB76}</Project>
+      <Name>LoaderLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
