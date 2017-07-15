@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SkillData>
+		<id_i>0</id_i>
+		<moveSpeed_i>40</moveSpeed_i>
+    <skillDamage_i>5</skillDamage_i>
+		<skillPrefab_s>aoshu.prefab</skillPrefab_s>
+    <ConsumeEnergy>200</ConsumeEnergy>
+    <hitDistance>1</hitDistance>
+    <skillSound_l>skill1.mp3</skillSound_l>
+    <continueAttackTime>500</continueAttackTime>
+    <initSize>1</initSize>
+    <explodeFx>fx_hit.prefab</explodeFx>
+	</SkillData>
+  <SkillData>
+    <id_i>1</id_i>
+    <chargePower_i>1</chargePower_i>
+    <chargePowerUnitTime>0.033</chargePowerUnitTime>
+    <chargePowerUnitVolume>0.01</chargePowerUnitVolume>
+    <chargePowerMaxVolume>2</chargePowerMaxVolume>
+    <skillChargePowerRate>30</skillChargePowerRate>
+    <skillReleasePercent>0.3</skillReleasePercent>
+    <chargePowerUnitConsumePower>40</chargePowerUnitConsumePower>
+    <traceTarget_i>1</traceTarget_i>
+    <skillDamage_i>15</skillDamage_i>
+    <moveSpeed_i>13</moveSpeed_i>
+    <skillPrefab_s>sword.prefab</skillPrefab_s>
+    <hitDistance>2</hitDistance>
+    <skillSound_l>skill2.mp3</skillSound_l>
+    <initSize>0.6</initSize>
+    <explodeFx>fx_hit1.prefab</explodeFx>
+  </SkillData>
+  <SkillData>
+    <id_i>2</id_i>
+    <chargePower_i>1</chargePower_i>
+    <chargePowerUnitTime>0.033</chargePowerUnitTime>
+    <chargePowerUnitVolume>0.02</chargePowerUnitVolume>
+    <chargePowerMaxVolume>1.5</chargePowerMaxVolume>
+    <skillChargePowerRate>30</skillChargePowerRate>
+    <skillReleasePercent>0.5</skillReleasePercent>
+    <chargePowerUnitConsumePower>20</chargePowerUnitConsumePower>
+    <skillDamage_i>10</skillDamage_i>
+    <moveSpeed_i>10</moveSpeed_i>
+    <skillPrefab_s>Meteolite.prefab</skillPrefab_s>
+    <hitDistance>3</hitDistance>
+    <skillSound_l>skill3_2.mp3</skillSound_l>
+
+    <continueDamage>1</continueDamage>
+    <continueDamageRadius>3</continueDamageRadius>
+
+    <continueFxTimeDelta>500</continueFxTimeDelta>
+    <continueFxTimes>4</continueFxTimes>
+    <continueDamageTimeDelta>500</continueDamageTimeDelta>
+    <continueDamageTimes>4</continueDamageTimes>
+    <continueDamageDestroyTime>3000</continueDamageDestroyTime>
+    
+    <initSize>0.8</initSize>
+    <explodeFx>H_huoqiubeiji_{0}.prefab</explodeFx>
+  </SkillData>
+    <SkillData>
+        <id_i>3</id_i>
+        <isHpUp_i>1</isHpUp_i>
+    </SkillData>
+  <SkillData>
+    <id_i>4</id_i>
+    <moveSpeed_i>40</moveSpeed_i>
+    <skillDamage_i>20</skillDamage_i>
+    <skillPrefab_s>Skill5.prefab</skillPrefab_s>
+    <ConsumeEnergy>1000</ConsumeEnergy>
+    <hitDistance>1</hitDistance>
+    <skillSound_l>skill5_1.mp3,skill5_2.mp3,skill5_3.mp3</skillSound_l>
+    <continueAttackTime>1200</continueAttackTime>
+    <initSize>1</initSize>
+    <skillRange_i>3</skillRange_i>
+    <explodeFx>paiji.prefab</explodeFx>
+</SkillData>
+</root>

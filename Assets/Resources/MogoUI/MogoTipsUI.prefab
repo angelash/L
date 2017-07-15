@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 475584}
+  - 114: {fileID: 11475584}
+  m_Layer: 0
+  m_Name: MogoTipsUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475584
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11475584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1582492658, guid: d3ccc9f69d213f74085e06b4c6f5bdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: ab99e7d759e2413469355835f623197e, type: 2}
+  sprites:
+  - name: tips.spL
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 348
+      width: 131
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 50
+      y: 398
+      width: 31
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tips.spA
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 184
+      width: 131
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 50
+      y: 234
+      width: 31
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: undo_d
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 374
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 374
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: available
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 279
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 279
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qiangyuan
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 210
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 210
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: coinBg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 136
+      width: 77
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 136
+      width: 77
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: delete
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 443
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 131
+      y: 443
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 175584}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoBgUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1582492658, guid: d3ccc9f69d213f74085e06b4c6f5bdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c34278c0ccaf17d48bbd34361629f64c, type: 2}
+  sprites:
+  - name: lt_beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 8
+      y: 17
+      width: 16
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tongyong_di_03
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 382
+      width: 162
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 396
+      y: 442
+      width: 32
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0123456791
+    paddingTop: .0153846154
+    paddingBottom: .0153846154
+  - name: role_bg_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 42
+      width: 188
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 42
+      width: 188
+      height: 122
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: role_bg_1
+    outer:
+      serializedVersion: 2
+      x: 331
+      y: 277
+      width: 172
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 331
+      y: 277
+      width: 172
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tongyong_di_02
+    outer:
+      serializedVersion: 2
+      x: 33
+      y: 11
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 19
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zhan_bg
+    outer:
+      serializedVersion: 2
+      x: 241
+      y: 171
+      width: 210
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 241
+      y: 171
+      width: 210
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: attackbtn
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 165
+      width: 240
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 165
+      width: 240
+      height: 96
+    rotated: 0
+    paddingLeft: .020833334
+    paddingRight: .020833334
+    paddingTop: .020833334
+    paddingBottom: .020833334
+  - name: controlpad
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 262
+      width: 330
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 262
+      width: 330
+      height: 250
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<config>
+		<id_i>1</id_i>
+		<star_color_s>green2</star_color_s>
+		<building_color_s>green1</building_color_s>
+		<soldier_color_s>green1</soldier_color_s>
+	</config>
+	<config>
+		<id_i>2</id_i>
+		<star_color_s>blue2</star_color_s>
+		<building_color_s>blue1</building_color_s>
+		<soldier_color_s>blue1</soldier_color_s>
+	</config>
+	<config>
+		<id_i>3</id_i>
+		<star_color_s>purple2</star_color_s>
+		<building_color_s>purple1</building_color_s>
+		<soldier_color_s>purple1</soldier_color_s>
+	</config>
+	<config>
+		<id_i>4</id_i>
+		<star_color_s>yellow2</star_color_s>
+		<building_color_s>yellow1</building_color_s>
+		<soldier_color_s>yellow1</soldier_color_s>
+	</config>
+</root>

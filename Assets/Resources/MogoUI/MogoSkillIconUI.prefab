@@ -1,0 +1,760 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoSkillIconUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1582492658, guid: d3ccc9f69d213f74085e06b4c6f5bdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4af6cb30048c74a498e979e03288c7a3, type: 2}
+  sprites:
+  - name: puyuanchang
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 366
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 366
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qianganta
+    outer:
+      serializedVersion: 2
+      x: 204
+      y: 366
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 366
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pujin
+    outer:
+      serializedVersion: 2
+      x: 273
+      y: 366
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 273
+      y: 366
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue2
+    outer:
+      serializedVersion: 2
+      x: 392
+      y: 231
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 392
+      y: 231
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: green2
+    outer:
+      serializedVersion: 2
+      x: 326
+      y: 231
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 326
+      y: 231
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: anshazhe
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 366
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 366
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qiangchengta
+    outer:
+      serializedVersion: 2
+      x: 411
+      y: 366
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 411
+      y: 366
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: puyuan
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 297
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 297
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: purple1
+    outer:
+      serializedVersion: 2
+      x: 318
+      y: 439
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 318
+      y: 439
+      width: 73
+      height: 73
+    rotated: 0
+    paddingLeft: .0273972601
+    paddingRight: .0273972601
+    paddingTop: .0273972601
+    paddingBottom: .0273972601
+  - name: qiangjinchang
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 228
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 228
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qiangyuanchang
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 159
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 159
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: green1
+    outer:
+      serializedVersion: 2
+      x: 245
+      y: 439
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 245
+      y: 439
+      width: 73
+      height: 73
+    rotated: 0
+    paddingLeft: .0273972601
+    paddingRight: .0273972601
+    paddingTop: .0273972601
+    paddingBottom: .0273972601
+  - name: gongchengche
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 90
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 90
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow1
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 439
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 439
+      width: 73
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qiangyuan
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 297
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 297
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue1
+    outer:
+      serializedVersion: 2
+      x: 391
+      y: 439
+      width: 73
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 391
+      y: 439
+      width: 73
+      height: 73
+    rotated: 0
+    paddingLeft: .0273972601
+    paddingRight: .0273972601
+    paddingTop: .0273972601
+    paddingBottom: .0273972601
+  - name: yellow2
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 231
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 231
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: puta
+    outer:
+      serializedVersion: 2
+      x: 273
+      y: 297
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 273
+      y: 297
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pujinchang
+    outer:
+      serializedVersion: 2
+      x: 204
+      y: 297
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 297
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: purple2
+    outer:
+      serializedVersion: 2
+      x: 411
+      y: 300
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 411
+      y: 300
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: qiangjin
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 21
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 21
+      width: 69
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hit
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 39
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 39
+      width: 63
+      height: 64
+    rotated: 0
+    paddingLeft: .0158730168
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: styuanchengatk1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 56
+      width: 34
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 56
+      width: 34
+      height: 228
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00438596494
+    paddingBottom: .00438596494
+  - name: stjinzhanatk2
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 292
+      width: 27
+      height: 220
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 292
+      width: 27
+      height: 220
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0181818176
+  - name: yuanchengatk1
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 177
+      width: 24
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 177
+      width: 24
+      height: 115
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yuanchengatk3
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 99
+      width: 24
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 99
+      width: 24
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .025641026
+  - name: stjinzhanatk1
+    outer:
+      serializedVersion: 2
+      x: 34
+      y: 60
+      width: 27
+      height: 224
+    inner:
+      serializedVersion: 2
+      x: 34
+      y: 60
+      width: 27
+      height: 224
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: B10016_ma
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 167
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 167
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gongchengatk2
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 103
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 103
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: styuanchengatk2
+    outer:
+      serializedVersion: 2
+      x: 34
+      y: 284
+      width: 34
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 34
+      y: 284
+      width: 34
+      height: 228
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00438596494
+    paddingBottom: .00438596494
+  - name: jinzhanatk1
+    outer:
+      serializedVersion: 2
+      x: 95
+      y: 155
+      width: 40
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 95
+      y: 155
+      width: 40
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .142857149
+  - name: jinzhanatk2
+    outer:
+      serializedVersion: 2
+      x: 95
+      y: 295
+      width: 40
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 95
+      y: 295
+      width: 40
+      height: 140
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .142857149
+  - name: B10013_ma
+    outer:
+      serializedVersion: 2
+      x: 464
+      y: 448
+      width: 48
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 464
+      y: 448
+      width: 48
+      height: 64
+    rotated: 0
+    paddingLeft: .0833333358
+    paddingRight: .25
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gongchengatk1
+    outer:
+      serializedVersion: 2
+      x: 204
+      y: 212
+      width: 56
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 212
+      width: 56
+      height: 85
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0178571437
+    paddingTop: 0
+    paddingBottom: .0117647061
+  - name: anshaatk
+    outer:
+      serializedVersion: 2
+      x: 204
+      y: 149
+      width: 42
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 204
+      y: 149
+      width: 42
+      height: 63
+    rotated: 0
+    paddingLeft: .0476190485
+    paddingRight: .0476190485
+    paddingTop: 0
+    paddingBottom: .0158730168
+  - name: yuanchengatk2
+    outer:
+      serializedVersion: 2
+      x: 34
+      y: 0
+      width: 18
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 34
+      y: 0
+      width: 18
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: toweratk
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 35
+      width: 21
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 68
+      y: 35
+      width: 21
+      height: 64
+    rotated: 0
+    paddingLeft: 1.09523809
+    paddingRight: .952380955
+    paddingTop: 0
+    paddingBottom: 0
+  - name: styuanchengatk3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 284
+      width: 34
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 284
+      width: 34
+      height: 228
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00877192989
+    paddingBottom: 0
+  - name: white
+    outer:
+      serializedVersion: 2
+      x: 95
+      y: 435
+      width: 77
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 95
+      y: 435
+      width: 77
+      height: 77
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

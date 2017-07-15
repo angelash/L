@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MovingRangeMat
+  m_Shader: {fileID: 4800000, guid: 6e9b420eb88fa9c47912d2c3b8ab15dd, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0c5fa79a927211a4592740e5b351a977, type: 3}
+          m_Scale: {x: .600000024, y: 1}
+          m_Offset: {x: .200000003, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _ColorCtrl
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .966292143, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .45588237, g: .45588237, b: .45588237, a: 1}

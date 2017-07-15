@@ -1,0 +1,13 @@
+<root>
+  <record>
+    <id>0</id>
+    <InitBuilding>1:1</InitBuilding>
+    <InitSoldier>1:20</InitSoldier>
+    <BattleTime>300</BattleTime>
+    <CombatFrequeny>0.5</CombatFrequeny>
+    <BuildingReversionFrequency>2</BuildingReversionFrequency>
+    <BuildingReversionEnergy>2</BuildingReversionEnergy>
+    <AttackStarFrequeny>0.5</AttackStarFrequeny>
+    <GameTime>180</GameTime>
+  </record>
+</root>

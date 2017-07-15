@@ -1,0 +1,265 @@
+<root>
+
+	<Properties>
+
+		<!--队伍id-->
+		<TeamId>
+			<Type> UINT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+		</TeamId>
+
+		<!--名字-->
+		<Name>
+			<Type> STRING </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+		</Name>
+
+		<!--地图id-->
+		<MapId>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+		</MapId>
+
+		<!--总部id-->
+		<HeadQuarterId>
+			<Type> INT32 </Type>
+			<Flags> ALL_CLIENTS </Flags>
+			<Persistent> true </Persistent>
+		</HeadQuarterId>
+	</Properties>
+
+	<ClientMethods>
+
+		<!--创建机器人-->
+		<CreateAvatarResp>
+		</CreateAvatarResp>
+
+		<StartMatch>
+			<Arg> INT32 </Arg>
+			<!--队伍数量-->
+			<Arg> INT32 </Arg>
+			<!--玩家数量-->
+		</StartMatch>
+
+		<StartBattle>
+		</StartBattle>
+
+		<HeartBeat>
+		</HeartBeat>
+
+		<AddBuilding>
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--建筑ID-->
+			<Arg> INT32 </Arg>
+			<!--完成度-->
+		</AddBuilding>
+
+		<AddSoldier>
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--士兵ID-->
+			<Arg> INT32 </Arg>
+			<!--数量-->
+			<Arg> INT32 </Arg>
+			<!--来源1集合0调度-->
+		</AddSoldier>
+
+		<OccupyStar>
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+		</OccupyStar>
+
+		<RemoveSoldier>
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--士兵ID-->
+			<Arg> INT32 </Arg>
+			<!--数量-->
+      <Arg> INT32 </Arg>
+      <!--Type 0建筑  1hit 2侵入-->
+		</RemoveSoldier>
+
+		<RemoveBuilding>
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--建筑位置-->
+			<Arg> INT32 </Arg>
+			<!--能量-->
+		</RemoveBuilding>
+
+		<ArrayedSoldier>
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--1 战斗开始  2战斗结束-->
+		</ArrayedSoldier>
+
+		<MoveSoldier>
+			<Arg> LUA_TABLE </Arg>
+			<!--士兵移动信息-->
+		</MoveSoldier>
+
+		<UpdateStarBelongTo>
+			<Arg> UINT32 </Arg>
+			<!--所属玩家id-->
+			<Arg> INT32 </Arg>
+			<!--星球id-->
+		</UpdateStarBelongTo>
+
+		<AttackStar>
+			<Arg> UINT32 </Arg>
+			<!--攻击方id-->
+			<Arg> UINT32 </Arg>
+			<!--星球所属玩家id-->
+			<Arg> INT32 </Arg>
+			<!--星球id-->
+			<Arg> INT32 </Arg>
+			<!--能量-->
+		</AttackStar>
+
+		<GameOver>
+			<Arg> INT32 </Arg>
+		</GameOver>
+	</ClientMethods>
+
+	<BaseMethods>
+
+		<!--创建机器人-->
+		<CreateAvatarReq>
+			<Exposed />
+		</CreateAvatarReq>
+
+		<StartMatch>
+			<Exposed />
+			<Arg> INT32 </Arg>
+			<!--队伍数量-->
+			<Arg> INT32 </Arg>
+			<!--玩家数量-->
+		</StartMatch>
+
+		<StartBattle>
+			<Exposed />
+		</StartBattle>
+
+		<HeartBeat>
+			<Exposed />
+		</HeartBeat>
+
+		<AddBuilding>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--建筑ID-->
+			<Arg> INT32 </Arg>
+			<!--完成度-->
+		</AddBuilding>
+
+		<AddSoldier>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--士兵ID-->
+			<Arg> INT32 </Arg>
+			<!--数量-->
+			<Arg> INT32 </Arg>
+			<!--来源1集合0调度-->
+		</AddSoldier>
+
+		<OccupyStar>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+		</OccupyStar>
+
+		<RemoveSoldier>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--士兵ID-->
+			<Arg> INT32 </Arg>
+			<!--数量-->
+      <Arg> INT32 </Arg>
+      <!--Type 0建筑  1hit 2侵入-->
+		</RemoveSoldier>
+
+		<RemoveBuilding>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--玩家ID-->
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--建筑位置-->
+			<Arg> INT32 </Arg>
+			<!--能量-->
+		</RemoveBuilding>
+
+		<ArrayedSoldier>
+			<Exposed />
+			<Arg> INT32 </Arg>
+			<!--星球ID-->
+			<Arg> INT32 </Arg>
+			<!--1 战斗开始  2战斗结束-->
+		</ArrayedSoldier>
+
+		<MoveSoldier>
+			<Exposed />
+			<Arg> LUA_TABLE </Arg>
+			<!--士兵移动信息-->
+		</MoveSoldier>
+
+		<UpdateStarBelongTo>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--所属玩家id-->
+			<Arg> INT32 </Arg>
+			<!--星球id-->
+		</UpdateStarBelongTo>
+
+		<AttackStar>
+			<Exposed />
+			<Arg> UINT32 </Arg>
+			<!--攻击方id-->
+			<Arg> UINT32 </Arg>
+			<!--星球所属玩家id-->
+			<Arg> INT32 </Arg>
+			<!--星球id-->
+			<Arg> INT32 </Arg>
+			<!--能量-->
+		</AttackStar>
+
+		<GameOver>
+			<Exposed />
+			<Arg> INT32 </Arg>
+		</GameOver>
+	</BaseMethods>
+</root>

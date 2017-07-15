@@ -1,0 +1,268 @@
+<root>
+<k>MogoBlack (SoftClip).shader</k>
+<v>Default/Shader/MogoBlack (SoftClip)</v>
+<k>MogoBlackWhite (SoftClip).shader</k>
+<v>Default/Shader/MogoBlackWhite (SoftClip)</v>
+<k>MogoBlackWhiteETC (SoftClip).shader</k>
+<v>Default/Shader/MogoBlackWhiteETC (SoftClip)</v>
+<k>MogoChangeColor (SoftClip).shader</k>
+<v>Default/Shader/MogoChangeColor (SoftClip)</v>
+<k>MogoChangeColorETC (SoftClip).shader</k>
+<v>Default/Shader/MogoChangeColorETC (SoftClip)</v>
+<k>MogoFont  (SoftClip).shader</k>
+<v>Default/Shader/MogoFont  (SoftClip)</v>
+<k>MogoFont.shader</k>
+<v>Default/Shader/MogoFont</v>
+<k>MogoTipsUI.shader</k>
+<v>Default/Shader/MogoTipsUI</v>
+<k>MogoTopUI (SoftClip).shader</k>
+<v>Default/Shader/MogoTopUI (SoftClip)</v>
+<k>MogoTopUIETC (SoftClip).shader</k>
+<v>Default/Shader/MogoTopUIETC (SoftClip)</v>
+<k>MogoUI (SoftClip).shader</k>
+<v>Default/Shader/MogoUI (SoftClip)</v>
+<k>MogoUI.shader</k>
+<v>Default/Shader/MogoUI</v>
+<k>MogoUIAdd.shader</k>
+<v>Default/Shader/MogoUIAdd</v>
+<k>MogoUIBackGround (SoftClip).shader</k>
+<v>Default/Shader/MogoUIBackGround (SoftClip)</v>
+<k>MogoUIBackGround.shader</k>
+<v>Default/Shader/MogoUIBackGround</v>
+<k>MogoUIBackGroundETC (SoftClip).shader</k>
+<v>Default/Shader/MogoUIBackGroundETC (SoftClip)</v>
+<k>MogoUIBackGroundETC.shader</k>
+<v>Default/Shader/MogoUIBackGroundETC</v>
+<k>MogoUIETC (SoftClip).shader</k>
+<v>Default/Shader/MogoUIETC (SoftClip)</v>
+<k>MogoUIETC2 (SoftClip).shader</k>
+<v>Default/Shader/MogoUIETC2 (SoftClip)</v>
+<k>Unlit-TransparentColored.shader</k>
+<v>Default/Shader/Unlit-TransparentColored</v>
+<k>YCrCbtoRGB.shader</k>
+<v>Default/Shader/YCrCbtoRGB</v>
+<k>FontMa.mat</k>
+<v>Font/mat/FontMa</v>
+<k>TopFontMat.mat</k>
+<v>Font/mat/TopFontMat</v>
+<k>ButtonFontMsyh.prefab</k>
+<v>Font/prefab/ButtonFontMsyh</v>
+<k>FontMsyh.prefab</k>
+<v>Font/prefab/FontMsyh</v>
+<k>HeadFontMsyh.prefab</k>
+<v>Font/prefab/HeadFontMsyh</v>
+<k>TitleFontMsyh.prefab</k>
+<v>Font/prefab/TitleFontMsyh</v>
+<k>TopFontMsyh.prefab</k>
+<v>Font/prefab/TopFontMsyh</v>
+<k>FZY4JW.TTF</k>
+<v>Font/ttf/FZY4JW</v>
+<k>Main_Camera.prefab</k>
+<v>Global/Main_Camera</v>
+<k>MogoBlackWhiteMat2.mat</k>
+<v>GUI/mat/MogoBlackWhiteMat2</v>
+<k>AttackUI.prefab</k>
+<v>GUI/AttackUI</v>
+<k>BalanceUI.prefab</k>
+<v>GUI/BalanceUI</v>
+<k>BattleScoreUI.prefab</k>
+<v>GUI/BattleScoreUI</v>
+<k>BattleUI.prefab</k>
+<v>GUI/BattleUI</v>
+<k>BillBoardInfoUI.prefab</k>
+<v>GUI/BillBoardInfoUI</v>
+<k>BuildingUI.prefab</k>
+<v>GUI/BuildingUI</v>
+<k>BulletUI.prefab</k>
+<v>GUI/BulletUI</v>
+<k>CameraControllerUI.prefab</k>
+<v>GUI/CameraControllerUI</v>
+<k>ComfirmUI.prefab</k>
+<v>GUI/ComfirmUI</v>
+<k>ControllerPanel.prefab</k>
+<v>GUI/ControllerPanel</v>
+<k>EufloriaBarrierUI.prefab</k>
+<v>GUI/EufloriaBarrierUI</v>
+<k>EufloriaMainUI.prefab</k>
+<v>GUI/EufloriaMainUI</v>
+<k>FireUI.prefab</k>
+<v>GUI/FireUI</v>
+<k>FlyControllerUI.prefab</k>
+<v>GUI/FlyControllerUI</v>
+<k>FPSUI.prefab</k>
+<v>GUI/FPSUI</v>
+<k>GameStartUI.prefab</k>
+<v>GUI/GameStartUI</v>
+<k>LoadingBattleUI.prefab</k>
+<v>GUI/LoadingBattleUI</v>
+<k>LoadingSceneUI.prefab</k>
+<v>GUI/LoadingSceneUI</v>
+<k>MainControllerUI.prefab</k>
+<v>GUI/MainControllerUI</v>
+<k>MogoLogicUI.prefab</k>
+<v>GUI/MogoLogicUI</v>
+<k>MogoMainUI.prefab</k>
+<v>GUI/MogoMainUI</v>
+<k>MogoTopUI.prefab</k>
+<v>GUI/MogoTopUI</v>
+<k>MsgBoxFbFloat.prefab</k>
+<v>GUI/MsgBoxFbFloat</v>
+<k>MsgBoxUI.prefab</k>
+<v>GUI/MsgBoxUI</v>
+<k>NoviceGuideUI.prefab</k>
+<v>GUI/NoviceGuideUI</v>
+<k>PlayerHeadUI.prefab</k>
+<v>GUI/PlayerHeadUI</v>
+<k>QRCodeUI.prefab</k>
+<v>GUI/QRCodeUI</v>
+<k>RecoverEnergyUI.prefab</k>
+<v>GUI/RecoverEnergyUI</v>
+<k>RightControllerUI.prefab</k>
+<v>GUI/RightControllerUI</v>
+<k>ServerInfoUI.prefab</k>
+<v>GUI/ServerInfoUI</v>
+<k>SkillUI.prefab</k>
+<v>GUI/SkillUI</v>
+<k>SoldierFightPanel.prefab</k>
+<v>GUI/SoldierFightPanel</v>
+<k>SoldierUI.prefab</k>
+<v>GUI/SoldierUI</v>
+<k>StarUI.prefab</k>
+<v>GUI/StarUI</v>
+<k>TargetLockUI.prefab</k>
+<v>GUI/TargetLockUI</v>
+<k>TipsUI.prefab</k>
+<v>GUI/TipsUI</v>
+<k>WaitingUI.prefab</k>
+<v>GUI/WaitingUI</v>
+<k>MogoBlackWhiteMat.mat</k>
+<v>GUImat/MogoBlackWhiteMat</v>
+<k>MogoColoredEraser.mat</k>
+<v>GUImat/MogoColoredEraser</v>
+<k>MogoGray.mat</k>
+<v>GUImat/MogoGray</v>
+<k>MogoGreenMat.mat</k>
+<v>GUImat/MogoGreenMat</v>
+<k>MogoLakeBlueMat.mat</k>
+<v>GUImat/MogoLakeBlueMat</v>
+<k>MogoOrangeMat.mat</k>
+<v>GUImat/MogoOrangeMat</v>
+<k>MogoPurposeMat.mat</k>
+<v>GUImat/MogoPurposeMat</v>
+<k>MogoRedMat.mat</k>
+<v>GUImat/MogoRedMat</v>
+<k>MogoRoseRedMat.mat</k>
+<v>GUImat/MogoRoseRedMat</v>
+<k>MogoYellowMat.mat</k>
+<v>GUImat/MogoYellowMat</v>
+<k>MovingRangeMat.mat</k>
+<v>GUImat/MovingRangeMat</v>
+<k>fx_npc_80.png</k>
+<v>Images/fx_npc_80</v>
+<k>help.png</k>
+<v>Images/help</v>
+<k>Sand.png</k>
+<v>Images/Sand</v>
+<k>touxiangdikuang.png</k>
+<v>Images/touxiangdikuang</v>
+<k>xinghun0.png</k>
+<v>Images/xinghun0</v>
+<k>MogoBgUI.mat</k>
+<v>MogoUI/MogoBgUI</v>
+<k>MogoBgUI.prefab</k>
+<v>MogoUI/MogoBgUI</v>
+<k>MogoNormalMainUI.mat</k>
+<v>MogoUI/MogoNormalMainUI</v>
+<k>MogoNormalMainUI.prefab</k>
+<v>MogoUI/MogoNormalMainUI</v>
+<k>MogoSkillIconUI.mat</k>
+<v>MogoUI/MogoSkillIconUI</v>
+<k>MogoSkillIconUI.prefab</k>
+<v>MogoUI/MogoSkillIconUI</v>
+<k>MogoTipsUI.mat</k>
+<v>MogoUI/MogoTipsUI</v>
+<k>MogoTipsUI.prefab</k>
+<v>MogoUI/MogoTipsUI</v>
+<k>S1_se_city.ogg</k>
+<v>music/S1_se_city</v>
+<k>S2_pvp.ogg</k>
+<v>music/S2_pvp</v>
+<k>021_TreeDeath_01.ogg</k>
+<v>se/021_TreeDeath_01</v>
+<k>021_TreeDeath_02.ogg</k>
+<v>se/021_TreeDeath_02</v>
+<k>b002_Seedling_Dive0.ogg</k>
+<v>se/b002_Seedling_Dive0</v>
+<k>b008_LevelWin_StoryMode.ogg</k>
+<v>se/b008_LevelWin_StoryMode</v>
+<k>b010_Enhance_DefenseTrees.ogg</k>
+<v>se/b010_Enhance_DefenseTrees</v>
+<k>b010_Enhance_DysonTrees.ogg</k>
+<v>se/b010_Enhance_DysonTrees</v>
+<k>Enhanced_enemyimpact1.ogg</k>
+<v>se/Enhanced_enemyimpact1</v>
+<k>Enhanced_enemyimpact2.ogg</k>
+<v>se/Enhanced_enemyimpact2</v>
+<k>Enhanced_enemyimpact3.ogg</k>
+<v>se/Enhanced_enemyimpact3</v>
+<k>Explode_1.ogg</k>
+<v>se/Explode_1</v>
+<k>growing_sound_norm_low.ogg</k>
+<v>se/growing_sound_norm_low</v>
+<k>LaserMine_Explode.ogg</k>
+<v>se/LaserMine_Explode</v>
+<k>Launch_1.ogg</k>
+<v>se/Launch_1</v>
+<k>send.ogg</k>
+<v>se/send</v>
+<k>tree grow 1.ogg</k>
+<v>se/tree grow 1</v>
+<k>ui_select_middle.mp3</k>
+<v>se/ui_select_middle</v>
+<k>ui_select_strong.mp3</k>
+<v>se/ui_select_strong</v>
+<k>ui_select_weak.mp3</k>
+<v>se/ui_select_weak</v>
+<k>ui_window_close.mp3</k>
+<v>se/ui_window_close</v>
+<k>ui_window_open.mp3</k>
+<v>se/ui_window_open</v>
+<k>CharacterLow.shader</k>
+<v>Shader/Character/CharacterLow</v>
+<k>CharacterShadow.shader</k>
+<v>Shader/Character/CharacterShadow</v>
+<k>PlayerShader.shader</k>
+<v>Shader/Character/PlayerShader</v>
+<k>MogoBlackWhite.shader</k>
+<v>Shader/UI/MogoBlackWhite</v>
+<k>MogoBlackWhiteETC.shader</k>
+<v>Shader/UI/MogoBlackWhiteETC</v>
+<k>MogoChangeColor.shader</k>
+<v>Shader/UI/MogoChangeColor</v>
+<k>MogoChangeColorETC.shader</k>
+<v>Shader/UI/MogoChangeColorETC</v>
+<k>MogoGray.shader</k>
+<v>Shader/UI/MogoGray</v>
+<k>MogoTopFont.shader</k>
+<v>Shader/UI/MogoTopFont</v>
+<k>MogoTopUI.shader</k>
+<v>Shader/UI/MogoTopUI</v>
+<k>MogoColoredEraser.shader</k>
+<v>Shader/MogoColoredEraser</v>
+<k>MogoParticlesAdd43.shader</k>
+<v>Shader/MogoParticlesAdd43</v>
+<k>MogoParticlesBlend43.shader</k>
+<v>Shader/MogoParticlesBlend43</v>
+<k>MogoSkybox.shader</k>
+<v>Shader/MogoSkybox</v>
+<k>Scroll1Layers-AlphaAdditive.shader</k>
+<v>Shader/Scroll1Layers-AlphaAdditive</v>
+<k>MogoBgUI.png</k>
+<v>Textures/MogoBgUI</v>
+<k>MogoNormalMainUI.png</k>
+<v>Textures/MogoNormalMainUI</v>
+<k>MogoSkillIconUI.png</k>
+<v>Textures/MogoSkillIconUI</v>
+<k>MogoTipsUI.png</k>
+<v>Textures/MogoTipsUI</v>
+</root>
