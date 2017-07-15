@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<config>
+		<id_i>1</id_i>
+		<size_l>1500,900</size_l>
+		<starId_l>4,1,1,2,1,1,3,2,2,4,1,1,2,1,1,3</starId_l>
+		<positionX_l>-500,-500,-500,-400,-200,-200,-200,0,0,500,500,500,400,200,200,200</positionX_l>
+		<positionY_l>300,100,-50,-200,-200,-50,150,-200,0,300,100,-50,-200,-200,-50,150</positionY_l>
+	</config>
+	<config>
+		<id_i>2</id_i>
+		<size_l>200,300</size_l>
+		<starId_l>1,2,3,4,1,1,2,2,3</starId_l>
+		<positionX_l>10,50,100,10,150,50,100,10,150</positionX_l>
+		<positionY_l>120,250,100,210,200,120,250,100,210</positionY_l>
+	</config>
+</root>
