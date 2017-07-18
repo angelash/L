@@ -147,9 +147,9 @@ public class UIStretch : MonoBehaviour
                 localScale.x = relativeSize.x * rectWidth;
                 localScale.y = relativeSize.y * rectWidth;
 
-                if (localScale.x > 1280.0f * Screen.height / 720.0f)
+                if (localScale.x > 720.0f * Screen.height / 1280.0f)
                 {
-                    localScale.x = 1280.0f * Screen.height / 720.0f;
+                    localScale.x = 720.0f * Screen.height / 1280.0f;
                     localScale.y = localScale.x;
                 }
 

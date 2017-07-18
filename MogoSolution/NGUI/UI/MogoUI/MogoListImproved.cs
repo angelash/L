@@ -52,7 +52,7 @@ public class MogoListImproved : MonoBehaviour
     public int RowSize;
     public int ColSize;
     public string PrefabName;
-    public float stageSize = 1280;
+    public float stageSize = 720;
     public int cameraDepth;
     public float SlideFactor = 1.0f;
     private Vector3 preDrag;

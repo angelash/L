@@ -7,7 +7,7 @@ public static class UIUtils
     /// <summary>
     /// 美术出图尺寸
     /// </summary>
-    public const float UI_SIZE = 1280;
+    public const float UI_SIZE = 720;
 
     /// <summary>
     /// 1 / 1280

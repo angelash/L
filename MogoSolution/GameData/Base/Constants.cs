@@ -21,7 +21,7 @@ namespace Mogo.Game
 
     public class UIConfig
     {
-        public const int WIDTH = 1280;
+        public const int WIDTH = 720;
     }
 
     public enum Vocation : byte
