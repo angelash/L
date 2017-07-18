@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<id_i>1</id_i>
+		<type_l>1,2</type_l>
+		<args_n>1:20,30,2:10,20</args_n>
+		<icon_i>2</icon_i>
+	</data>
+	<data>
+		<id_i>2</id_i>
+		<type_l>1,2</type_l>
+		<args_n>1:20,30,2:10,20</args_n>
+		<icon_i>2</icon_i>
+	</data>
+</root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<id_i>1</id_i>
+		<hp_i>2000</hp_i>
+		<type_i>1</type_i>
+		<atk_f>300</atk_f>
+		<atk_range_f>200</atk_range_f>
+	</data>
+	<data>
+		<id_i>2</id_i>
+		<hp_i>2000</hp_i>
+		<type_i>2</type_i>
+		<atk_f>300</atk_f>
+		<atk_range_f>200</atk_range_f>
+	</data>
+</root>

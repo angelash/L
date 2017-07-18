@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<id_i>1</id_i>
+		<pos_l>20,20</pos_l>
+	</data>
+	<data>
+		<id_i>2</id_i>
+		<pos_l>40,40</pos_l>
+	</data>
+</root>

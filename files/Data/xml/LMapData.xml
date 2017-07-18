@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<id_i>1</id_i>
+		<icon_i>201</icon_i>
+		<map_info_l>700,700</map_info_l>
+		<building_n>1:1,20,20</building_n>
+		<hero_born_point_l>20,20,5</hero_born_point_l>
+		<monster_born_info_n>1:1,20,20,1,120</monster_born_info_n>
+		<soldier_born_info_n>1:1,20,20,2,30</soldier_born_info_n>
+		<soldier_path_l>1,2</soldier_path_l>
+	</data>
+	<data>
+		<id_i>2</id_i>
+		<icon_i>201</icon_i>
+		<map_info_l>700,700</map_info_l>
+		<building_n>1:1,20,20</building_n>
+		<hero_born_point_l>20,20,5</hero_born_point_l>
+		<monster_born_info_n>1:1,20,20,1,120</monster_born_info_n>
+		<soldier_born_info_n>1:1,20,20,2,30</soldier_born_info_n>
+		<soldier_path_l>1,2</soldier_path_l>
+	</data>
+</root>
