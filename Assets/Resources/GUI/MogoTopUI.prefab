@@ -123,7 +123,7 @@ Transform:
   m_GameObject: {fileID: 138192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5923.25928, y: 5160.7793, z: -4424.9375}
-  m_LocalScale: {x: .00461893762, y: .00461893762, z: .00461893762}
+  m_LocalScale: {x: .00228832942, y: .00228832942, z: .00228832942}
   m_Children:
   - {fileID: 438194}
   - {fileID: 438196}
@@ -161,7 +161,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -639.98584, y: -639.98584, z: 0}
+  m_LocalPosition: {x: -360.183624, y: 360.183624, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438200}
@@ -175,7 +175,7 @@ Transform:
   m_GameObject: {fileID: 138200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 745, y: 745, z: 1}
+  m_LocalScale: {x: 491.625, y: 491.625, z: 1}
   m_Children:
   - {fileID: 438202}
   m_Father: {fileID: 438198}
@@ -225,7 +225,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 1280
+  orthographic size: 720
   m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
@@ -257,7 +257,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 1280
+  orthographic size: 720
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scalingStyle: 0
   automatic: 0
-  manualHeight: 720
+  manualHeight: 1280
   minimumHeight: 320
   maximumHeight: 1536
 --- !u!114 &11438192

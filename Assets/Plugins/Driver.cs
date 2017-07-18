@@ -11,7 +11,7 @@ public class Driver : MonoBehaviour
         gameObject.AddComponent<DriverLib>();
         if (Application.platform == RuntimePlatform.WindowsPlayer)
         {
-            Screen.SetResolution(1280, 720, false);
+            Screen.SetResolution(720, 1280, false);
         }
     }
 }
