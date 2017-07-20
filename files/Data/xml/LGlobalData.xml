@@ -2,14 +2,10 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<data>
 		<id_i>1</id_i>
-		<name_s>小三</name_s>
-		<icon_i>1</icon_i>
-		<skill_l>1,2,3</skill_l>
+		<value_s>100</value_s>
 	</data>
 	<data>
 		<id_i>2</id_i>
-		<name_s>G.K</name_s>
-		<icon_i>2</icon_i>
-		<skill_l>1,2,3</skill_l>
+		<value_s>200</value_s>
 	</data>
 </root>
