@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400018}
   - 114: {fileID: 11400000}
   m_Layer: 14
-  m_Name: LControlPanelUI
+  m_Name: LMapInfolUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.3345566, y: 149.924866, z: 50.8222656}
+  m_LocalPosition: {x: -32, y: 503, z: 51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400022}
@@ -52,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -500, z: 0}
-  m_LocalScale: {x: 800, y: 400, z: 1}
+  m_LocalPosition: {x: -2, y: 7, z: 1}
+  m_LocalScale: {x: 800, y: 720, z: 1}
   m_Children: []
   m_Father: {fileID: 400018}
   m_RootOrder: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 0
   mAtlas: {fileID: 11400000, guid: f47c13b0b7df4a64790f2f2382f113bb, type: 2}
-  mSpriteName: controller.bg1
+  mSpriteName: icon.bg2
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
