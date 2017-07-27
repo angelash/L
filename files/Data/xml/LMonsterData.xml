@@ -7,7 +7,7 @@
 		<atk_f>300</atk_f>
 		<atk_range_f>200</atk_range_f>
 		<speed_i>30</speed_i>
-		<ken_i>30</ken_i>
+		<view_range_i>30</view_range_i>
 		<money_i>100</money_i>
 		<exp_i>100</exp_i>
 		<icon_i>2</icon_i>
@@ -20,7 +20,7 @@
 		<atk_f>300</atk_f>
 		<atk_range_f>200</atk_range_f>
 		<speed_i>30</speed_i>
-		<ken_i>30</ken_i>
+		<view_range_i>30</view_range_i>
 		<money_i>100</money_i>
 		<exp_i>100</exp_i>
 		<icon_i>2</icon_i>

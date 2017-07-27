@@ -5,11 +5,13 @@
 		<name_s>小三</name_s>
 		<icon_i>1</icon_i>
 		<skill_l>1,2,3</skill_l>
+		<attr_l>1,2</attr_l>
 	</data>
 	<data>
 		<id_i>2</id_i>
 		<name_s>G.K</name_s>
 		<icon_i>2</icon_i>
 		<skill_l>1,2,3</skill_l>
+		<attr_l>1,2</attr_l>
 	</data>
 </root>

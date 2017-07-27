@@ -2,14 +2,13 @@
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<data>
 		<id_i>1</id_i>
-		<hero_id_i>1</hero_id_i>
 		<level_i>1</level_i>
 		<hp_i>2000</hp_i>
 		<mp_i>2000</mp_i>
 		<hp_recovery_i>20</hp_recovery_i>
 		<mp_recovery_i>20</mp_recovery_i>
 		<atk_range_f>200</atk_range_f>
-		<ken_i>30</ken_i>
+		<view_range_i>30</view_range_i>
 		<speed_i>30</speed_i>
 		<ad_i>300</ad_i>
 		<ap_i>300</ap_i>
@@ -19,14 +18,13 @@
 	</data>
 	<data>
 		<id_i>2</id_i>
-		<hero_id_i>1</hero_id_i>
 		<level_i>2</level_i>
 		<hp_i>2000</hp_i>
 		<mp_i>2000</mp_i>
 		<hp_recovery_i>20</hp_recovery_i>
 		<mp_recovery_i>20</mp_recovery_i>
 		<atk_range_f>200</atk_range_f>
-		<ken_i>30</ken_i>
+		<view_range_i>30</view_range_i>
 		<speed_i>30</speed_i>
 		<ad_i>300</ad_i>
 		<ap_i>300</ap_i>
